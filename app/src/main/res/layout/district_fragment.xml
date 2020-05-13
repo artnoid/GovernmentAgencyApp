@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.BandungActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#00644b">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_district"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:text="F I N D   D I S T R I C T"
+            android:textColor="#ffffffff"
+            android:textSize="25sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00644b"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnPurwakarta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kabupaten Purwakarta"
+                android:textColor="#00644b"/>
+
+            <Button
+                android:id="@+id/btnBandung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kota Bandung"
+                android:textColor="#00644b"/>
+            <Button
+                android:id="@+id/btnJakbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kota Jakarta Barat"
+                android:textColor="#00644b"/>
+
+            <Button
+                android:id="@+id/btnJaksel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kota Jakarta Selatan"
+                android:textColor="#00644b"/>
+
+            <Button
+                android:id="@+id/btnJaktim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kota Jakarta Timur"
+                android:textColor="#00644b"/>
+
+            <Button
+                android:id="@+id/btnJakut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kota Jakarta Utara"
+                android:textColor="#00644b"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

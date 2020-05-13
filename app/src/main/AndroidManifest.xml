@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.datainstansi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.fragment.HomeFragment" />
+        <activity android:name=".view.activity.BandungActivity" />
+        <activity android:name=".view.activity.AllAgencyActivity" />
+        <activity android:name=".view.activity.JakbarActivity" />
+        <activity android:name=".view.activity.JakselActivity" />
+        <activity android:name=".view.activity.JaktimActivity" />
+        <activity android:name=".view.activity.JakutActivity" />
+        <activity android:name=".view.activity.PurwakartaActivity" />
+        <activity android:name=".view.fragment.OfficeFragment" />
+        <activity android:name=".view.activity.FragmentActivity" />
+        <activity android:name=".datalokal.TampilDBAdminActivity" />
+        <activity android:name=".datalokal.TampilDBActivity" />
+        <activity android:name=".datalokal.UpdateDBActivity" />
+        <activity android:name=".datalokal.MessageActivity"/>
+        <activity android:name=".view.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

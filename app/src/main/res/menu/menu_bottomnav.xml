@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_district"
+        android:title="District"
+        android:icon="@drawable/ic_district"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_office"
+        android:title="Office"
+        android:icon="@drawable/ic_office"
+        app:showAsAction="ifRoom"/>
+</menu>

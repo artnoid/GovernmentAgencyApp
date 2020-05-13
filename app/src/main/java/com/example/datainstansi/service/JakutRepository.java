@@ -1,0 +1,13 @@
+package com.example.datainstansi.service;
+
+import com.example.datainstansi.model.district.bandung.BandungDiscoverResponse;
+import com.example.datainstansi.model.district.jakarta_utara.JakutDiscoverResponse;
+
+import retrofit2.Call;
+import retrofit2.http.GET;
+
+public interface JakutRepository {
+
+    @GET("daftar_instansi/Kota Jakarta Utara")
+    Call<JakutDiscoverResponse> getJakutDiscover();
+}
